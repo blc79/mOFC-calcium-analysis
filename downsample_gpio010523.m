@@ -159,3 +159,6 @@ gpio_files.adjLeverPressTimes = gpio_files.leverPressTimes - gpio_files.sessionS
 gpio_files.adjShockTimes = gpio_files.shockTimes - gpio_files.sessionStart; 
 
 save(strcat(date,'_', sessionID,'_gpio_files'),'gpio_files');
+
+
+%%%TESTING
