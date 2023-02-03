@@ -60,7 +60,7 @@ gpio_files.sessionStart = sessionStart;
 gpio_files.gpio_2 = gpio_2_downsample;
 gpio_files.gpio_3 = gpio_3_downsample;
 gpio_files.gpio_4 = gpio_4_downsample;
-clearvars -except gpio_files subjectID sessionID ; 
+clearvars -except gpio_files ; 
 
 %separate out GPIO_2
 gpio_2=gpio_files.gpio_2; 
